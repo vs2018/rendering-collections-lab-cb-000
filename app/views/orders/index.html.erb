@@ -6,7 +6,7 @@
     <th>Price
     <th>Customer</th>  
   </tr>
-  <%= render(@invoices) || "No Invoices"%>
+  <%= render(@orders) || "No Invoices"%>
 
   <% @orders.each do |order| %>
     <% order.products.each do |product| %>
